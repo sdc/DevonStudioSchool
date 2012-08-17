@@ -1,0 +1,7 @@
+*~
+Thumbs.db
+*Thumbs.db
+configuration.php
+cache/*
+.htaccess
+administrator/logs/*

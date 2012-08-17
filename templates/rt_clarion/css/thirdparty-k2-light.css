@@ -1,0 +1,103 @@
+/**
+ * @package   Clarion Template - RocketTheme
+ * @version   1.3 July 20, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* K2 Global */
+#k2Container h3, #k2Container h2, #k2Container h1, #k2Container h4 {color: #333;font-weight: normal;font-family: RobotoRegular,Helvetica,Arial,sans-serif;}
+.font-family-clarion #k2Container h3.catItemTitle, .font-family-clarion #k2Container h2.itemTitle, .font-family-clarion #k2Container h3.userItemTitle, #k2Container .componentheading, .font-family-clarion #k2Container h2.genericItemTitle,div.k2ItemsBlock ul li a.moduleItemTitle {text-shadow: 1px 1px 1px #fff;}
+
+/* K2 Font Controls */
+div.itemToolbar ul li a#fontDecrease img, div.itemToolbar ul li a#fontIncrease img {background-image: url(../images/main/light/k2-font-controls.png);}
+div.itemToolbar ul li a#fontDecrease img:hover, div.itemToolbar ul li a#fontIncrease img:hover {background-color: #4A4A4A;}
+
+/* K2 Readon */
+#k2Container .k2ReadMore {background-image: url(../images/main/light/readon.png);color: #fff;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);}
+#k2Container .button, .k2UserBlock .button, span.catItemAddLink a, span.userItemAddLink a {background-image: url(../images/main/light/readon.png) !important;color: #fff !important;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);}
+span.catItemAddLink a:hover, span.userItemAddLink a:hover {background: transparent;}
+
+/* K2 Tags */
+div.k2TagCloudBlock a, div.k2ItemsBlock ul li div.moduleItemTags a {background-color:#ECECEC;border: 1px solid #D0D0D0;background-image: url(../images/main/light/roknewspager-border.png);color: #777777;}
+.module-content .k2TagCloudBlock a:hover, div.k2ItemsBlock ul li div.moduleItemTags a:hover {background-image: url(../images/main/light/readon.png);color: white;text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);background-position: 0 0;border-color: transparent;}
+div.catItemTagsBlock ul.catItemTags li, div.itemTagsBlock ul.itemTags li, div.userItemTagsBlock ul.userItemTags li, div.latestItemTagsBlock ul.latestItemTags li {background-color:#ECECEC;border: 1px solid #D0D0D0;background-image: url(../images/main/light/roknewspager-border.png);}
+div.catItemTagsBlock ul.catItemTags li a, div.itemTagsBlock ul.itemTags li a, div.userItemTagsBlock ul.userItemTags li a, div.latestItemTagsBlock ul.latestItemTags li a {color: #777777;}
+div.catItemTagsBlock ul.catItemTags li:hover, div.itemTagsBlock ul.itemTags li:hover, div.userItemTagsBlock ul.userItemTags li:hover, div.latestItemTagsBlock ul.latestItemTags li:hover {background-image: url(../images/main/light/readon.png);color: white;text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);background-position: 0 0;border-color: transparent;}
+div.catItemTagsBlock ul.catItemTags li:hover a,div.itemTagsBlock ul.itemTags li:hover a, div.userItemTagsBlock ul.userItemTags li:hover a, div.latestItemTagsBlock ul.latestItemTags li:hover a {color: white;}
+
+/* K2 Arrow Items */
+#k2Container .groupLinks .catItemTitle a, div.k2UserBlock ul.k2UserBlockActions li a, div.k2LatestCommentsBlock ul li span.lcComment {padding-left: 12px;background: url(../images/main/light/arrows.png) 2px 6px no-repeat;font-size: 13px;}
+
+/* K2 Author */
+#k2Container .catItemView .catItemAuthor, #k2Container span.itemAuthor {background-color: #EBEBEB;border: 1px solid #C8C8C8;box-shadow: 0 1px 2px rgba(0,0,0,0.1);text-shadow: 1px 1px 1px #FFF;color: #333;}
+
+/* K2 IMG Tags */
+.itemListView .catItemImage img, #k2Container .itemListCategory img, #k2Container .itemImage img, #k2Container .authorResponse img, #k2Container .userItemImageBlock img, #k2Container .genericItemImageBlock img, .k2UsersBlock .ubUserAvatar img,.k2LatestCommentsBlock ul li .lcAvatar img,.k2Avatar img, div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img, div.subCategory a.subCategoryImage img, span.tagItemImage img, div.userBlock img, span.latestItemImage img, span.tagItemImage img, div.tagItemIntroText img, div.latestItemsUser img, div.latestItemIntroText img, div.k2ItemsBlock ul li a.moduleItemAuthorAvatar img, div.latestItemsCategoryImage img,div.itemAuthorBlock img.itemAuthorAvatar, div.subCategory a.subCategoryImage:hover img  {box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);background-color: #fff;border: 1px solid rgb(229, 229, 229);}
+
+/* K2 Categories BG */
+#k2Container  div.latestItemsCategory, #k2Container .itemListCategory, #k2Container .userBlock, #k2Container .subCategory, #k2Container div.itemAuthorBlock,#k2Container div.itemComments {background: url(../images/main/light/backgrounds/squares.png);border: 5px solid #fff;box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+
+/* K2 Item Links */
+#k2Container .userItemLinks, #k2Container .itemLinks, #k2Container .catItemLinks, #k2Container .latestItemLinks {border: 1px dotted #C8C8C8;background: #F0F0F0;}
+
+/* K2 Item View */
+#k2Container div.itemIntroText {color: #444;font-size: 100%;font-weight: bold;line-height: 24px;padding: 4px 0 0px 0;}
+#k2Container div.itemTwitterButton,#k2Container  div.itemGooglePlusOneButton {margin: 2px -24px 0 0;}
+#k2Container div.itemContentFooter, {border: 0 none;background: url(../images/main/light/double-border.png) top repeat-x;}
+#k2Container div.itemAuthorBlock {padding: 10px;}
+#k2Container div.tagItemView {border: 0 none;background: url(../images/main/light/double-border.png) bottom repeat-x;}
+
+/* K2 Category */
+#k2Container .catItemRatingBlock span {color: #666;}
+#k2Container .catItemCategory span {background: url(../images/main/light/publish-icon.png) 0 3px no-repeat;}
+#k2Container .catItemTagsBlock {background: url(../images/main/light/tag-icon.png) 0 7px no-repeat;}
+#k2Container .catItemCommentsLink {background: url(../images/main/light/comments-icon.png) 0 3px no-repeat;border: 0;}
+div.catItemTagsBlock ul.catItemTags li {background-color:#ECECEC;border: 1px solid #D0D0D0;background-image: url(../images/main/light/roknewspager-border.png);}
+div.catItemTagsBlock ul.catItemTags li a {color: #777777;}
+div.catItemTagsBlock ul.catItemTags li:hover {background-image: url(../images/main/light/readon.png);color: white;text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);background-position: 0 0;border-color: transparent;}
+div.catItemTagsBlock ul.catItemTags li:hover a {color: white;}
+
+/* K2 Items */
+#k2Container .itemDateModified {border: 0;color: #666;}
+#k2Container .itemRatingBlock span {color: #666;}
+
+/* K2 Items - Links */
+#k2Container .itemTagsBlock span {background: url(../images/main/light/tag-icon.png) 0 2px no-repeat;}
+#k2Container .itemCategory span {background: url(../images/main/light/publish-icon.png) 0 3px no-repeat;}
+
+/* K2 Items - Author / Related */
+#k2Container .itemAuthorLatest ul li a, #k2Container .itemRelated ul li a {background: url(../images/main/light/arrows.png) 2px 4px no-repeat;font-size: 100%;}
+#k2Container .itemAuthorLatest {float: left;margin-right: 20px;}
+
+/* K2 User */
+#k2Container .userItemCategory span {background: url(../images/main/light/publish-icon.png) 0 3px no-repeat;}
+#k2Container .userItemTagsBlock {background: url(../images/main/light/tag-icon.png) 0 7px no-repeat;}
+#k2Container .userItemDateCreated {color: #666;}
+
+/* K2 Generic */
+#k2Container .genericItemDateCreated {color: #666;}
+#k2Container .genericItemCategory {background: url(../images/main/light/publish-icon.png) 0 3px no-repeat;}
+#k2Container .genericItemTagsBlock {background: url(../images/main/light/tag-icon.png) 0 7px no-repeat;}
+
+/* K2 Content Module */
+div.k2ItemsBlock ul li span.moduleItemDateCreated {background-color: #EBEBEB;border: 1px solid #C8C8C8;box-shadow: 0 1px 2px rgba(0,0,0,0.1);text-shadow: 1px 1px 1px #FFF;color: #333;}
+
+/* K2 Comments Module */
+.k2LatestCommentsBlock ul li, #k2Container .itemCommentsList li {background: url(../images/main/light/double-border.png) bottom repeat-x;}
+
+/* K2 Users Module */
+.k2UsersBlock ul.ubUserItems li a {background: url(../images/main/light/arrows.png) 2px 4px no-repeat;font-size: 100%;}
+
+/* K2 Categories Module */
+.k2CategoriesListBlock ul li a {background: url(../images/main/light/arrows.png) 2px 4px no-repeat;font-size: 100%;}
+.k2CategoriesListBlock ul li.activeCategory a {color: #000000;}
+
+/* K2 Calendar Module */
+.k2CalendarBlock .calendarToday, .k2CalendarBlock .calendarDateLinked a:hover {background: url(../images/main/light/overlay-color2.png);}
+
+/* K2 Latest*/
+#k2Container .latestItemCategory span {background: url(../images/main/light/tag-icon.png) 0 2px no-repeat;}
+#k2Container .latestItemTagsBlock span {background: url(../images/main/light/publish-icon.png) 0 3px no-repeat;}
+

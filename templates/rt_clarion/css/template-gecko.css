@@ -1,0 +1,43 @@
+/**
+ * @package   Clarion Template - RocketTheme
+ * @version   1.3 July 20, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+/* Structure */
+body {text-rendering: optimizeSpeed;}
+.rt-section-surround {float: left;}
+
+
+/* Typography */
+.rokradios, .rokchecks {line-height: 140%;}
+#more-articles span {line-height: 24px;}
+.inputstyling-enabled-1 .rt-pollrow input {left: 0 !important;visibility: hidden;}
+p.dropcap2:first-letter, p.dropcap4:first-letter, p.dropcap6:first-letter {padding: 10px 10px;}
+#search_searchword {width: 144px;}
+.menutop > li.active.root .item.subtext em, .menutop li.root.f-mainparent-itemfocus .item.subtext em, .menutop li.f-mainparent-itemfocus .item.subtext em, .rt-menubar .menutop > li:hover .item.subtext em, .rt-menubar .menutop > li.active .item.subtext em {margin-top: -19px;}
+
+/* Transitions */
+a, .readon .button {-moz-transition: color 0.2s linear;}
+.roktabs-wrapper .roktabs-links ul li span, #rt-subnavigation .menu li .item span, .fusion-submenu-wrapper li > .item span, .feature-number-sub, .roktabs-wrapper .arrow-next, .roktabs-wrapper .arrow-prev, .roktabs-wrapper .roktabs-links ul li, #gantry-totop, .component-content #more-articles {-moz-transition: background 0.2s linear;}
+.component-content .rt-article-icons .icon {-moz-transition: opacity 0.3s ease-out;}
+.module-content ul.menu li > a, .module-content ul.menu li > .separator, .module-content ul.menu li > .item {-moz-transition: background 0.2s linear;}
+.menutop ul li > .item:hover, .menutop li.f-menuparent-itemfocus > .item, .menutop ul li.active > .item, .menutop li.active.f-menuparent-itemfocus > .item {-moz-transition: background 0.3s ease-in-out, color 0.3s ease-in-out;}
+.rokgallery-wrapper .rg-gm-slice:before {-moz-transition: opacity 0.2s ease-in;}
+
+/* load transition */
+#rt-transition.rt-hidden {opacity: 0;}
+#rt-transition.rt-visible {opacity: 1;-moz-transition: opacity 0.4s ease-in;transition: opacity 0.4s ease-in;}
+
+/* Demo Presets */
+body .menutop .type-module ol li .fusion-module {overflow: visible;}
+.menu-preset a span {-moz-transition: all 0.3s ease-in-out;-moz-animation-iteration-count: 1;position:relative;z-index:3000;-moz-transform: scale(1); cursor:pointer;}
+.menu-preset a:hover span {-moz-transition: all 0.3s ease-in-out;-moz-animation-iteration-count: 1;position:relative;z-index:3000;-moz-transform: scale(1.1); cursor:pointer;}
+
+/* Additional Fixes */
+.roktabs-wrapper .roktabs-links ul li span {-moz-user-select: none;}
+#rt-body-surround .register-buttons .readon {float: left;}
+#rt-body-surround .register-buttons a.readon {margin: 0 0 0 9px;}
+.profile-edit a.readon span {float: left;}

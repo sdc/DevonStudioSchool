@@ -1,0 +1,198 @@
+ /**
+ * @package   Clarion Template - RocketTheme
+ * @version   1.3 July 20, 2012
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Article */
+.component-content .rt-article {margin-bottom: 15px;position: relative;}
+.component-content .rt-article-bg {border-bottom: none;margin: 0;padding: 0;}
+.component-content .rt-pagetitle {margin-top: 0;margin-bottom: 30px;font-weight: normal;letter-spacing: normal;font-size: 160%;}
+.component-content  ol {margin-left: 5px;}
+.component-content .rt-more-articles {margin-top: 25px;border-radius: 5px;}
+.component-content #more-articles {border-radius: 5px;background-repeat: repeat-x;background-position: 0 0;}
+.component-content #more-articles:hover {background-position: 0 -97px;}
+.component-content .multicolumns .rt-article {clear: both;margin: 0 15px 25px;}
+
+/* Article Details */
+.component-content .rt-article-icons {white-space: nowrap;}
+.component-content .rt-article-icons ul li a {opacity: 0.6;transition: opacity 0.3s ease-out;}
+.component-content .rt-article-icons ul li a:hover {opacity: 1;}
+.component-content .rt-article-icons .print-icon a {background-position: -1px -23px;background-repeat: no-repeat;}
+.component-content .rt-article-icons .email-icon a {background-position: 0px -45px;background-repeat: no-repeat;}
+.component-content .rt-article-icons .pdf-icon a {background-position: 0 -2px;background-repeat: no-repeat;}
+.component-content .rt-article-icons .edit-icon a {background-position: 0 -67px;}
+.component-content .rt-article-icons .edit-icon a {margin: 0;}
+.component-content .rt-article-icons .edit-icon a img {opacity: 0 !important;}
+.component-content .rt-article-no-icon li{list-style: none; display:inline; float:right; margin-left: 5px;}
+.component-content .rt-author, .component-content .rt-date-posted, .component-content .rt-date-modified {display: inline-block;line-height: 100%;font-size: 1em;margin-right: 10px;}
+.component-content .rt-articleinfo-text {float: left;position: relative;border-radius: 3px;}
+.component-content .rt-articleinfo-text2 {padding: 2px 5px;border-radius: 3px;}
+.component-content .rt-joomla .icon {margin-left: 5px;width: 18px;}
+.rt-joomla .rt-article-icons {width: 87px;padding: 3px 0;}
+.component-content .rt-category, .component-content .rt-date-modified, .component-content .rt-date-published, .component-content .rt-author, .component-content .rt-hits {display: inline-block;}
+
+/* More Articles Feature */
+.component-content #more-articles {display: block;position: relative;height: 24px;clear: both;padding: 7px;font-weight: normal;transition: background 0.2s linear;}
+.component-content #more-articles span {line-height: 24px;font-size: 15px;float: right;}
+.component-content #more-articles.spinner {background-image:url(../images/spinner.gif);background-position: 0 50%;background-repeat: no-repeat;}
+.component-content #more-articles.disabled {cursor: default;}
+
+/* Column Layout */
+.component-content .float-left {float: left;}
+.component-content .float-right {float: right;}
+.component-content .width25 {width: 25%;}
+.component-content .width33 {width: 33.33%;}
+.component-content .width50 {width: 50%;}
+.component-content .width100 {width: 100%;}
+.component-content .multicolumns {width: 100%;}
+
+/* Typography */
+.component-content .results ol.list {margin-top: 0;}
+.component-content .results ol.list h4 {border: 0;margin-top: 0;margin-bottom: 0;display: inline;}
+.component-content .results ol.list li {padding: 10px 5px;margin-bottom: 5px;}
+.component-content .results ol.list li p {margin-top: 0;font-size: 90%;}
+.component-content .results ol.list .description {margin-bottom: 15px;}
+.component-content .results ol.list li span.small {font-size: 90%;}
+.component-content .rt-article-links h3, .component-content .user legend, .component-content .contact legend {font-weight: normal;font-size: 170%;line-height: 120%;letter-spacing: normal;}
+.component-content .user legend {margin-top: 15px;}
+.component-content .user .label-left {padding: 4px 0;}
+.component-content .user fieldset div {overflow: visible;clear: both;margin-bottom: 8px;}
+.component-content .user td.paramlist_key {width: 180px;}
+.component-content .search_result select#ordering.inputbox {margin-right: 10px;}
+.component-content .inputbox.invalid {color: #c00;}
+.component-content .rt-joomla-table {border-radius: 4px;border-collapse: separate;*border-collapse: collapse;margin-bottom: 15px;border-bottom: none !important;}
+.component-content .rt-joomla-table th, .component-content .rt-joomla-table td, .component-content .rt-joomla-table .odd td, .component-content .rt-joomla-table .even td {padding: 10px;line-height: 18px;text-align: left;}
+.component-content .rt-joomla-table th {font-weight: bold;vertical-align: middle;border: none;}
+.component-content .rt-joomla-table td {vertical-align: top;}
+.component-content .rt-joomla-table thead tr:first-child th:first-child, .component-content .rt-joomla-table tbody tr:first-child td:first-child {border-radius: 4px 0 0 0;}
+.component-content .rt-joomla-table thead tr:first-child th:last-child, .component-content .rt-joomla-table tbody tr:first-child td:last-child {border-radius: 0 4px 0 0;}
+.component-content .rt-joomla-table tbody tr:last-child td:first-child {border-radius: 0 0 0 4px;}
+.component-content .rt-joomla-table tbody tr:last-child td:last-child {border-radius: 0 0 4px 0;}
+.component-content .rt-description img {margin-right: 15px;}
+.component-content .my-pagenav {float: left;margin-left: 10px;}
+.component-content .tab {display: inline-block;margin-right: 10px;text-align: center;}
+.component-content .page-block {display: inline-block;margin-right: 4px;font-weight: bold;text-align: center;}
+.component-content .page-active, .component-content .page-inactive {padding: 0 4px;}
+.component-content .page-inactive:hover {cursor: pointer;}
+.component-content .search_result label {margin-right: 10px;}
+.component-content .search_result legend {font-size: 14px;padding-bottom: 5px;}
+.tool-tip {z-index: 1000 !important;}
+#form-login ul, #com-form-login ul, ul.rt-more-articles, .rt-section-list ul, ul.mostread, ul.latestnews, .weblinks ul, #rt-popuplogin ul, ul.newsfeed {padding: 0;}
+#rt-popuplogin ul, .rt-contact-form {margin-top: 10px;}
+#form-login ul li, #com-form-login ul li, ul.rt-more-articles li, .rt-section-list ul li, ul.mostread li, ul.latestnews li, .weblinks ul li, #rt-popuplogin ul li,ul.newsfeed li, .rt-contact-form li {list-style: none;}
+ul.newsfeed li {padding-top: 10px;}
+#form-login ul li a, #com-form-login ul li a, ul.rt-more-articles li a, .rt-section-list ul li a, ul.mostread li a, ul.latestnews li a, .weblinks ul li a, #rt-popuplogin ul li a,ul.newsfeed li a {padding: 4px 0 4px 15px;background-position: 2px 7px;background-repeat: no-repeat;display: inline-block;line-height: 100%;font-size: 100%;font-weight: normal;}
+#form-login ul li a:hover, #com-form-login ul li a:hover, ul.rt-more-articles li a:hover, .rt-section-list ul li a:hover, ul.mostread li a:hover, ul.latestnews li a:hover, .weblinks ul li a:hover, #rt-popuplogin ul li a:hover,ul.newsfeed li a:hover {background-position: 2px -379px;}
+.component-content .user input#email, .component-content .user input#name, .component-content .user input#username, .component-content .user input#password, .component-content .user input#passwd, .component-content .user input#password2 {width: 160px !important;padding: 5px 4px;outline: none;}
+#rt-popuplogin .inputbox {width: 164px;padding: 6px 4px;outline: none;font-size: 14px;}
+#com-form-login .inputbox, .component-content .user input#email, .component-content .user input#name, .component-content .user input#username, .component-content .user input#password, .component-content .user input#password2 {width: 260px;}
+#com-form-login #remember.inputbox {width: auto;}
+#com-form-login .inputbox {padding: 5px 10px;outline: none;}
+#com-form-login ul {margin-top: 15px;}
+#form-login ul {padding-left: 0;}
+#com-form-login fieldset div.readon, #josForm fieldset div.readon {margin: 0;}
+#com-form-login fieldset div.readon:active, #josForm fieldset div.readon:active {margin-top: 1px;margin-bottom: -1px;}
+#form-login-remember {margin: 15px 0;}
+#username-lbl,#password-lbl {display: block;width: 130px;float: left;font-weight: bold;font-size: 120%;padding-top: 6px;}
+#rt-popuplogin ul li a:hover {color: black;}
+
+/* Pagination */
+.rt-pagination, .pagination {margin-top: 15px;}
+.rt-pagination a, .pagination a {font-weight: normal;font-size: 1em;}
+.rt-pagination .rt-results, .pagination .results {text-align: center;margin: 0;}
+.rt-pagination .pagenav, .pagination .pagenav {padding: 0 4px;}
+.component-content .rt-pagination, .component-content .pagination {margin: 10px 0;padding: 10px 0 10px 0px;}
+.component-content .rt-pagination ul, .component-content .pagination ul {list-style-type: none;margin: 0;padding: 0;text-align: center;}
+.component-content .rt-pagination li, .component-content .pagination li {display: inline;padding: 2px 5px;text-align: center;margin: 0 2px;border: none;}
+.component-content .rt-pagination li.pagination-start, .component-content .rt-pagination li.pagination-next, .component-content .rt-pagination li.pagination-end, .component-content .rt-pagination li.pagination-prev, .component-content .pagination li.pagination-start, .component-content .pagination li.pagination-next, .component-content .pagination li.pagination-end, .component-content .pagination li.pagination-prev {border: 0;}
+.component-content .rt-pagination li.pagination-start, .component-content .rt-pagination li.pagination-start span, .component-content .pagination li.pagination-start, .component-content .pagination li.pagination-start span {padding: 0;}
+.component-content p.counter {font-weight: bold;}
+
+/* Polls */
+.fusion-submenu-wrapper .rt-pollrow {font-size: 100%;}
+.rt-poll .readon {float: none;margin-right: 5px;}
+.rt-poll .rt-pollbuttons {clear: both;padding-bottom: 5px;}
+.rt-polltitle {font-size: 100%;letter-spacing: normal;}
+.readonstyle-link .rt-poll .readon {float: left;margin-right: 20px;}
+.pollstableborder td div {border: 0;height: 10px !important;min-width: 2px;}
+.rt-poll .pollstableborder th, .rt-poll .pollstableborder td, .rt-poll .poll dd {border: 0;}
+.rt-pollbuttons .readon:active {margin-top: 0;margin-bottom: 0;}
+
+/* SmartLoad */
+img.spinner {background: url(../images/spinner.gif) center center no-repeat;}
+.weblinks td img {width: 16px;height: 16px;}
+
+/* Editing */
+.component-content .edit-article fieldset legend {font-size: 230%;}
+.component-content .edit-article fieldset div {overflow: visible;margin-bottom: 8px;}
+.component-content .edit-article fieldset #editor-xtd-buttons div {clear: none;}
+#system-message dd.notice {border: 0;background: none;}
+.component-content .save .readon {margin-left: 10px;}
+div.calendar {z-index: 9999;}
+.button2-left {background: url(../images/system/j_button2_left.png) no-repeat !important;color: #666;}
+.button2-left .image {background: url(../images/system/j_button2_image.png) 100% 0 no-repeat !important;}
+.button2-left .readmore {background: url(../images/system/j_button2_readmore.png) 100% 0 no-repeat !important;}
+.button2-left .pagebreak {background: url(../images/system/j_button2_pagebreak.png) 100% 0 no-repeat !important;}
+.button2-left .blank {background: url(../images/system/j_button2_blank.png) 100% 0 no-repeat !important;}
+.button2-left .linkmacro {background: url(../images/system/j_button2_rokcandy.png) 100% 0 no-repeat !important;}
+
+/* Editor */
+#editor-xtd-buttons {padding: 5px 0;}
+.button2-left {margin-top: 5px;margin-right: 5px;}
+.button2-left, .button2-right, .button2-left div, .button2-right div {float: left;}
+.component-content  .button2-left .linkmacro, .component-content  .button2-left .image {background: none;}
+.button2-left a, .button2-right a, .button2-left span, .button2-right span {display: block;height: 22px;float: left;line-height: 22px;font-size: 11px;cursor: pointer;margin-bottom: 5px;}
+.button2-left span, .button2-right span {cursor: default;}
+.button2-left .page a, .button2-right .page a, .button2-left .page span, .button2-right .page span {padding: 0 6px;}
+.button2-left a:hover, .button2-right a:hover {text-decoration: none;}
+.button2-left a, .button2-left span {padding: 0 24px 0 6px;}
+.button2-right a, .button2-right span {padding: 0 6px 0 24px;}
+.button2-left .blank a {padding-right: 6px;}
+.img_caption.left {float: left;margin-right: 1em;}
+.img_caption.right {float: right;margin-left: 1em;}
+.img_caption.left p {clear: left;text-align: center;}
+.img_caption.right p {clear: right;text-align: center;}
+.img_caption {text-align: center !important;}
+.edit-article fieldset div input, .edit-article fieldset textarea {padding: 4px;}
+.edit-article fieldset div .label-left {padding: 0;}
+.edit-article fieldset div img.calendar {vertical-align: middle;margin-left: 5px;}
+
+/* Core Components - Member Access */
+.rt-joomla .user label#password-lbl, .rt-joomla .user label#username-lbl {display: block;float: left;font-size: 120%;font-weight: bold;width: 130px;}
+.component-content .user ul li {list-style: none;}
+.component-content .user ul li a {padding: 4px 0 4px 15px;line-height: 100%;font-weight: normal;font-size: 100%;display: inline-block;background-repeat: no-repeat;background-position: 2px 7px;}
+.component-content .user ul li a:hover {background-position: 2px -379px;}
+.component-content #member-registration fieldset {border: none;}
+.register-buttons .readon .button, .register-buttons .readon span {display: inline-block;}
+
+/* Core Component - Contact Form */
+.component-content form fieldset dt {width: 9em;}
+.component-content .contact .button {margin: 0;}
+
+/* System Messages */
+#system-message dd ul, #system-message dd.error ul, #system-message dd.notice ul {border: 0;font-size: 1.2em;text-align: center;}
+
+/* Compatibility */
+#recaptcha_widget_div {position: absolute;top: -140px;}
+#emailForm fieldset div.readon br {display: none;}
+
+/* Features */
+#rt-accessibility .small .button {background-position: 1px 4px;background-repeat: no-repeat;border-radius: 2px;width: 14px; height: 14px;opacity: 0.8;}
+#rt-accessibility .large .button {background-position: 1px -28px;background-repeat: no-repeat;border-radius: 2px;width: 14px; height: 14px;opacity: 0.8;}
+#rt-accessibility .small .button:hover {opacity: 1;}
+#rt-accessibility .large .button:hover {opacity: 1;}
+#rt-accessibility #rt-buttons a {width: 18px;height: 18px;display: inline-block;border-radius: 20px;}
+#rt-login-button .readon span  {font-size: 100% ;font-weight: normal ;}
+#rt-popupmodule-button .readon span {font-size: 120%;font-weight: normal;}
+
+/* Extra's */
+.tip-wrap {padding: 5px;border-radius: 2px;z-index: 1000;}
+
+/* Advanced Search */
+.component-content .search-results {clear: both;}
+.component-content #finder-search .word {margin-bottom: 10px;}
+.component-content #advanced-search #finder-filter-select-list li {margin-bottom: 10px;}
+.component-content #advanced-search #finder-filter-select-list label {width: 135px; display: inline; float: left;}
