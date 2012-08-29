@@ -15,7 +15,7 @@ class RokGallery_Queue_FileCreate
     /**
      * @return RokGallery_FileCreQueue
      */
-    public function &getInstance()
+    public static function &getInstance()
     {
         if (!isset(self::$_instance))
         {

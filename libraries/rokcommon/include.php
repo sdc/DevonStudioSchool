@@ -11,7 +11,7 @@ if (!defined('ROKCOMMON')) {
     if (($loaderrors = require_once(ROKCOMMON_ROOT_PATH . '/requirements.php')) !== true) {
         return $loaderrors;
     }
-    define('ROKCOMMON', '2.6.4');
+    define('ROKCOMMON', '2.6.5');
 
     // Bootstrap the base classloader and overrides
     require_once(ROKCOMMON_ROOT_PATH . '/RokCommon/ClassLoader.php');

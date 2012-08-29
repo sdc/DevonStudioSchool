@@ -24,7 +24,7 @@ class RokGallery_Manipulation_Action_Resize extends RokGallery_Manipulation_Abst
     {
         if (!$this->isSetup())
             throw new RokGallery_Manipulation_Exception(rc__('ROKGALLERY_MANIPULATION_WAS_NOT_SETUP_PRIOR_TO_APPLYING'));
-        $return_image = $image->resize($this->width, $this->height);
+        $return_image = $image->resize($this->width, $this->height, 'fill');
         return $return_image;
     }
 

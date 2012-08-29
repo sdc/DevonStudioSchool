@@ -37,7 +37,7 @@ class plgSystemRokGallery extends JPlugin {
 				throw new Exception($error_string);
 			}
 		}
-		define('ROKGALLERY', '2.14');
+		define('ROKGALLERY', '2.16');
 
 	}
 

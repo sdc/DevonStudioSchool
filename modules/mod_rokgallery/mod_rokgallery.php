@@ -60,6 +60,19 @@ if (defined('ROKGALLERY')) {
 	$passed_params->showcase_autoplay_enabled   = (int)$params->get('showcase_autoplay_enabled', 0);
 	$passed_params->showcase_autoplay_delay     = $params->get('showcase_autoplay_delay', 7) * 1000;
 	$passed_params->showcase_captionsanimation  = $params->get('showcase_captionsanimation', 'crossfade');
+
+	$passed_params->showcase_responsive_arrows             = $params->get('showcase_responsive_arrows', 'onhover');
+	$passed_params->showcase_responsive_image_position     = $params->get('showcase_responsive_image_position', 'left');
+	$passed_params->showcase_responsive_navigation         = $params->get('showcase_responsive_navigation', 'thumbnails');
+	$passed_params->showcase_responsive_imgpadding         = $params->get('showcase_responsive_imgpadding', 0);
+	$passed_params->showcase_responsive_fixedheight        = $params->get('showcase_responsive_fixedheight', 0);
+	$passed_params->showcase_responsive_animatedheight     = $params->get('showcase_responsive_animatedheight', 1);
+	$passed_params->showcase_responsive_animation_type     = $params->get('showcase_responsive_animation_type', 'random');
+	$passed_params->showcase_responsive_animation_duration = $params->get('showcase_responsive_animation_duration', 500);
+	$passed_params->showcase_responsive_autoplay_enabled   = (int)$params->get('showcase_responsive_autoplay_enabled', 0);
+	$passed_params->showcase_responsive_autoplay_delay     = $params->get('showcase_responsive_autoplay_delay', 7) * 1000;
+	$passed_params->showcase_responsive_captionsanimation  = $params->get('showcase_responsive_captionsanimation', 'crossfade');
+
 	$passed_params->moduleid                    = $module->id;
 
 
@@ -81,6 +94,9 @@ if (defined('ROKGALLERY')) {
 		RokCommon_Request::set($request_var_css, true);
 	}
 
+	$rokgallerymodule      = new RokGalleryModule();
+	$rokgallerymodule->loadGlobalHeaderFiles();
+
 	if (!RokCommon_Request::get($request_var_js, false)) {
 		$doc = &JFactory::getDocument();
 		if (file_exists(RokCommon_Composite::get($passed_params->layout_context)->get($passed_params->layout . RokGallery_Helper::getJSVersion() . '.js'))) {
@@ -93,7 +109,6 @@ if (defined('ROKGALLERY')) {
 		$doc->addScriptDeclaration(RokCommon_Composite::get($passed_params->layout_context)->load('javascript.php', array('passed_params'=> $passed_params)));
 	}
 
-	$rokgallerymodule      = new RokGalleryModule();
 	$passed_params->slices = $rokgallerymodule->getSlices($params);
 
 	require(JModuleHelper::getLayoutPath('mod_rokgallery'));

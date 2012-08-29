@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   $Id: Ajax.php 50022 2012-03-02 05:02:37Z btowles $
+ * @version   $Id: Ajax.php 54527 2012-07-23 15:54:55Z build $
  * @author    RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - ${copyright_year} RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -56,6 +56,9 @@ class RokCommon_Ajax
 		// Set up an independent AJAX error handler
 		set_error_handler(array('RokCommon_Ajax', 'error_handler'));
 		set_exception_handler(array('RokCommon_Ajax', 'exception_handler'));
+
+		while (@ob_end_clean()) ; // clean any pending output buffers
+		ob_start(); // start a fresh one
 
 		$result = null;
 		try {
@@ -153,16 +156,13 @@ class RokCommon_Ajax
 		$cs1 = substr_count($str, "'");
 		$cs2 = substr_count($str, "\\'");
 		$tmp = strtr($str, array(
-		                        "\\\""  => "",
-		                        "\\'"   => ""
+		                        "\\\""  => "", "\\'"   => ""
 		                   ));
 		$cb1 = substr_count($tmp, "\\");
 		$cb2 = substr_count($tmp, "\\\\");
 		if ($cd1 == $cd2 && $cs1 == $cs2 && $cb1 == 2 * $cb2) {
 			return strtr($str, array(
-			                        "\\\""  => "\"",
-			                        "\\'"   => "'",
-			                        "\\\\"  => "\\"
+			                        "\\\""  => "\"", "\\'"   => "'", "\\\\"  => "\\"
 			                   ));
 		}
 		return $str;

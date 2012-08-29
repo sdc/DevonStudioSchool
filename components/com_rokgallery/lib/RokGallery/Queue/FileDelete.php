@@ -15,7 +15,7 @@ class RokGallery_Queue_FileDelete
     /**
      * @return RokGallery_FileDeleteQueue
      */
-    public function &getInstance()
+    public static function &getInstance()
     {
         if (!isset(self::$_instance))
         {

@@ -44,9 +44,13 @@ if (!$slice->link){
             </optgroup>
           </select>
           <select class="display_type">
-            <optgroup label="Display">
+            <optgroup label="Fixed">
               <option value="slice" data-display="<img src='<?php echo $slice->imageurl;?>' width='<?php echo $slice->xsize;?>' height='<?php echo $slice->ysize;?>' alt='' title='' />">Slice</option>
               <option value="thumb" data-display="<img src='<?php echo $slice->thumburl;?>' width='<?php echo $slice->thumb_xsize;?>' height='<?php echo $slice->thumb_ysize;?>' alt='' title='' />">Thumbnail</option>
+            </optgroup>
+            <optgroup label="Responsive">
+              <option value="slice" data-display="<img src='<?php echo $slice->imageurl;?>' style='max-width: 100%;height: auto;' alt='' title='' />">Slice</option>
+              <option value="thumb" data-display="<img src='<?php echo $slice->thumburl;?>' style='max-width: 100%;height: auto;' alt='' title='' />">Thumbnail</option>
             </optgroup>
           </select>
           <?php endif; ?>

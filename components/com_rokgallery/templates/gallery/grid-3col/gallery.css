@@ -32,13 +32,13 @@
 .rg-grid-view .grid-row {display: table-row;}
 .rg-grid-view .grid-row:first-child {background: none;}
 .rg-col3 .rg-grid {width: 33.3%;}
-.rg-grid-view .rg-grid {display: table-cell;float: none;vertical-align: top;transition: background-color 0.3s linear;-webkit-transition: background-color 0.3s linear;-moz-transition: background 0.3s linear;-o-transition: background-color 0.3s linear;}
+.rg-grid-view .rg-grid {display: table-cell;float: left;vertical-align: top;transition: background-color 0.3s linear;-webkit-transition: background-color 0.3s linear;-moz-transition: background 0.3s linear;-o-transition: background-color 0.3s linear;}
 .rg-grid-view .rg-block {padding: 15px 5px;margin: 5px;text-align: center !important;border-radius: 3px;-moz-border-radius: 3px;}
 .rg-grid-view .grid-row .rg-grid:first-child {background-image: none;}
 .rg-grid-view .creation-date {display: block;font-style: italic;}
 .rg-grid-view .rg-grid-thumb {text-align: center !important;margin: 10px 0 0 0;padding: 8px 8px 12px; border-radius: 3px 3px 12px 12px;display: inline-block;}
 .rg-grid-view .rg-grid-thumb-link {display: block;}
-.rg-grid-view .rg-grid-thumb-img {border-radius: 3px;}
+.rg-grid-view .rg-grid-thumb-img {border-radius: 3px;max-width: 100%;height: auto;}
 .rg-grid-view .item-title {display: block;font-size: 130%;line-height: 120%;margin-top: 15px;}
 .rg-grid-view .item-caption {display: block;margin-top: 5px;font-size: 12px;font-style: italic;}
 .rg-grid-view .tag {font-size: 11px;line-height: 11px;display: inline-block;padding: 3px 5px;margin: 10px 1px 0 1px;border-radius: 5px;}
@@ -65,3 +65,10 @@
 
 /* Utility */
 html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {background: none;border: 0;clear: both;display: block;float: none;font-size: 0;list-style: none;margin: 0;padding: 0;overflow: hidden;visibility: hidden;width: 0;height: 0;}
+
+@media only screen and (max-width: 767px) {
+	.rg-grid-view {display: block;}
+	.rg-grid-view .grid-row {display: block;}
+	.rg-grid-view .rg-grid {display: block;}
+	.rg-col3 .rg-grid {width: 100%;}
+}

@@ -8,17 +8,17 @@
 ?>
 <div id="rg-<?php echo $passed_params->moduleid; ?>" class="rokgallery-wrapper">
 	<div class="rg-ss-container">
-		<div class="rg-ss-slice-container" style="width:<?php echo $passed_params->image_width;?>px;height:<?php echo $passed_params->image_height;?>px;">
+		<div class="rg-ss-slice-container" style="max-width: <?php echo $passed_params->image_width;?>px;">
 			<ul class="rg-ss-slice-list">
 	            <?php $i=1; foreach ($passed_params->slices as $slice):
 	            $slice_title = ($slice->title)?$slice->title:'';
 	            $slice_caption = ($slice->caption)?$slice->caption:'';?>
 				<li>
-		            <div class="rg-ss-slice">  
+		            <div class="rg-ss-slice">
 		            	<?php if ($passed_params->link!='none'):?>
 		                	<a <?php echo $slice->rel;?> href="<?php echo $slice->link;?>">
 		                <?php endif;?>
-		            		<img title="" alt="<?php echo $slice_title;?>" src="<?php echo $slice->imageurl;?>" width="<?php echo $passed_params->image_width;?>" height="<?php echo $passed_params->image_height;?>"/>
+		            		<img title="" alt="<?php echo $slice_title;?>" src="<?php echo $slice->imageurl;?>" style="max-width: 100%;height: auto;"/>
 		                <?php if ($passed_params->link!='none'):?>
 		            		</a>
 		            	<?php endif;?>
@@ -35,7 +35,7 @@
 		            <?php endif;?>
 	            </li>
 				<?php $i++;?>
-	        	<?php endforeach; ?> 
+	        	<?php endforeach; ?>
 			</ul>
 			<?php if ($passed_params->arrows!='no'):?>
 			<div class="rg-ss-controls <?php if ($passed_params->arrows=='onhover'):?>onhover<?php endif; ?>">
@@ -50,7 +50,7 @@
 			<?php endif; ?>
 		</div>
 		<?php if ($passed_params->navigation=='thumbnails'):?>
-		<div class="rg-ss-navigation-container arrows-enabled" style="width:<?php echo $passed_params->image_width;?>px;">
+		<div class="rg-ss-navigation-container arrows-enabled" style="width: 100%; max-width:<?php echo $passed_params->image_width;?>px;">
 			<div class="rg-ss-scroller-container">
 				<div class="rg-ss-thumb-scroller">
 					<ul class="rg-ss-thumb-list">
@@ -58,7 +58,7 @@
 							<li>
 							<?php if ($passed_params->navigation=='thumbnails'):?>
 				        	<div class="rg-ss-thumb">
-				        		<img title="<?php echo $slice->title;?>" alt="<?php echo $slice->title;?>" src="<?php echo $slice->thumburl;?>" width="<?php echo $passed_params->thumb_width;?>" height="<?php echo $passed_params->thumb_height;?>" />
+				        		<img title="<?php echo $slice->title;?>" alt="<?php echo $slice->title;?>" src="<?php echo $slice->thumburl;?>" style="max-width: 100%;height: auto;" />
 							</div>
 							<?php endif; $i++;?>
 							</li>

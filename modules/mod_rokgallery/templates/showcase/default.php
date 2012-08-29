@@ -26,7 +26,7 @@
 						<?php if ($passed_params->link!='none'):?>
 		                	<a <?php echo $slice->rel;?> href="<?php echo $slice->link;?>">
 		                <?php endif;?>
-		            		<img title="" alt="<?php echo $slice_title;?>" src="<?php echo $slice->imageurl;?>" width="<?php echo $passed_params->image_width;?>" height="<?php echo $passed_params->image_height;?>"/>
+		            		<img title="" alt="<?php echo $slice->title;?>" src="<?php echo $slice->imageurl;?>" width="<?php echo $passed_params->image_width;?>" height="<?php echo $passed_params->image_height;?>"/>
 		                <?php if ($passed_params->link!='none'):?>
 		            		</a>
 		            	<?php endif;?>
@@ -73,33 +73,4 @@
 		<span class="next"></span>
 	</div>
 	<?php endif;?>
-
-	<?php/*
-	<?php if ($passed_params->showcase_navigation == 'thumbnails'): ?>
-	<div class="rg-sc-navigation">
-		<div class="rg-sc-thumbs">
-  			<ul class="rg-sc-thumbs-list">
-				<?php $i=1; foreach ($passed_params->slices as $slice):?>
-					<li>
-		        	<div class="rg-sc-thumb">
-		        		<img title="<?php echo $slice->title;?>" alt="<?php echo $slice->title;?>" src="<?php echo $slice->thumburl;?>" width="<?php echo $passed_params->thumb_width;?>" height="<?php echo $passed_params->thumb_height;?>" />
-					</div>
-					<?php $i++;?>
-					</li>
-				<?php endforeach;?>
-  			</ul>
-
-		</div>
-	</div>
-	<?php endif; ?>
-	<?php if ($passed_params->showcase_navigation == 'pagination'): ?>
-	<div class="rg-sc-pagination">
-  		<ul class="rg-sc-pagination-list">
-  			<?php for ($i=1; $i <= count($passed_params->slices); $i++): ?>
-  				<li<?php echo ($i == 1) ? ' class="active"' : '' ?>><span><?php echo $i; ?></span></li>
-  			<?php endfor; ?>
-  		</ul>
-	</div>
-	<?php endif; ?>
-	*/ ?>
 </div>

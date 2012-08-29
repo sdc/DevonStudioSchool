@@ -12,6 +12,22 @@ jimport('joomla.utilities.date');
 
 class RokGalleryModule
 {
+    protected static $global_header_files_loaded = false;
+
+    /**
+    *
+    */
+    public function loadGlobalHeaderFiles()
+    {
+        if (!self::$global_header_files_loaded) {
+            $global_assets = RokCommon_Composite::get('mod_rokgallery_global_assets.js');
+            RokCommon_Header::addScript($global_assets->getUrl('moofx.js'));
+            RokCommon_Header::addScript($global_assets->getUrl('rokmediaqueries.js'));
+            RokCommon_Header::addScript($global_assets->getUrl('mootools-mobile.js'));
+            self::$global_header_files_loaded = true;
+        }
+    }
+
     public function getSlices(JRegistry &$params)
     {
         $conf =& JFactory::getConfig();

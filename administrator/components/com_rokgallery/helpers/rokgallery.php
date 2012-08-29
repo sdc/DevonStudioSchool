@@ -86,7 +86,7 @@ class RokGalleryHelper {
 
         //allowed stylesheets array
         $css_r = array();
-        $css_r[] = $com_admin.'/templates/gallerypicker/gallerypicker.css?version="2.14"';
+        $css_r[] = $com_admin.'/templates/gallerypicker/gallerypicker.css?version="2.16"';
         //j1.7 specific        
         $css_r[] = 'templates/system/css/system.css';
         $css_r[] = 'media/system/css/adminlist.css';
@@ -95,9 +95,9 @@ class RokGalleryHelper {
         $js_r = array();
         $js_r[] = $com_admin.'/assets/js/mootools.js';
         $js_r[] = $com_admin.'/assets/js/modal-1.3.js';
-        $js_r[] = $com_admin.'/assets/application/Scrollbar.js?version="2.14"';
-        $js_r[] = $com_admin.'/assets/application/MainPage.js?version="2.14"';
-        $js_r[] = $com_admin.'/templates/gallerypicker/gallerypicker.js?version="2.14"';
+        $js_r[] = $com_admin.'/assets/application/Scrollbar.js?version="2.16"';
+        $js_r[] = $com_admin.'/assets/application/MainPage.js?version="2.16"';
+        $js_r[] = $com_admin.'/templates/gallerypicker/gallerypicker.js?version="2.16"';
 
         //allowed style declarations
         $style_r = array();

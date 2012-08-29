@@ -28,7 +28,7 @@ class plgSystemRokCommon extends JPlugin
 	 */
 	const ROKCOMMON_CONFIG_TYPE_METACONFIG = 'metaconfig';
 
-	const ROKCOMMON_PLUGIN_VERSION = '2.6.4';
+	const ROKCOMMON_PLUGIN_VERSION = '2.6.5';
 
 
 	/**

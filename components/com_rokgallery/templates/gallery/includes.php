@@ -7,6 +7,7 @@
   */
 // load up style sheets
 RokCommon_Header::addStyle(RokCommon_Composite::get($that->context)->getUrl('gallery.css'));
+if (RokCommon_Browser::getEngine() == 'gecko') RokCommon_Header::addStyle(RokCommon_Composite::get($that->context)->getUrl('gallery-gecko.css'));
 RokCommon_Header::addStyle(RokCommon_Composite::get($that->style_context)->getUrl('style.css'));
 RokCommon_Header::addInlineScript(RokCommon_Composite::get($that->style_context)->load('js-settings.php', array('that'=>$that)));
- 
+

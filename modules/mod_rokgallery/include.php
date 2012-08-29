@@ -16,5 +16,6 @@ if (!defined('JOOMLA_ROKGALLERYMODULE_LIB')) {
     }
     RokGallery_Doctrine::addModelPath(JPATH_SITE . '/components/com_rokgallery/lib');
     RokCommon_Composite::addPackagePath('mod_rokgallery', JPATH_SITE . '/modules/mod_rokgallery/templates');
+    RokCommon_Composite::addPackagePath('mod_rokgallery_global_assets', JPATH_SITE . '/components/com_rokgallery/assets');
 }
 return 'JOOMLA_ROKGALLERYMODULE_LIB_LOADED';
