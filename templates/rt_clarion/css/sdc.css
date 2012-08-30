@@ -2,11 +2,14 @@ html body.bgstyle-wavy-lines-light div.rt-container div#rt-container-bg div#rt-c
   /* height: 100px;*/
 }
 
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-showcase div.rt-container div.rt-grid-12 div.nomarginall div.rt-block div.module-surround div.module-content div#rg-138.rokgallery-wrapper div.rg-ss-container div.rg-ss-slice-container ul.rg-ss-slice-list li div.rg-ss-info span.rg-ss-title {
+  font-size: 240%;  
+}
+
 html body div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-navigation div.rt-container div.rt-grid-3 div.rt-block a#rt-logo span#logo-color {
   background-color: transparent;
 }
 
-html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-showcase div.rt-container div.rt-grid-12 div.nomarginall div.rt-block div.module-surround div.module-content div#rg-138.rokgallery-wrapper div.rg-ss-container div.rg-ss-slice-container ul.rg-ss-slice-list li div.rg-ss-info span.rg-ss-caption {
-  opacity: 0.85;
-  visibility: visible;
+html body #rt-copyright #developed-by {
+  float: right;
 }
