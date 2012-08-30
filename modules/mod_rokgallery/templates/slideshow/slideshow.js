@@ -78,3 +78,7 @@ for(var k=0,h=m.length-1;k<m.length/2;k++,h--){l.push(m[k]);l.push(m[h]);}return
 for(var k=0,h=m.length-1;k<m.length/2;k++,h--){l.push(m[k]);l.push(m[h]);}l.reverse();return $$(l);},delay:50,properties:{opacity:[0,1],width:[0,"%width%"],height:[0,"%height%"]}},blindsRandom:{type:"blinds",blinds:12,direction:"right",reorder:function(i){var h=i;
 h.sort(function(){return 0.5-Math.random();});return $$(h);},delay:35,properties:{opacity:[0,1]}}};for(var c in g){this.RokGallery.Slideshow.Animations.prototype.addAnimation(c,g[c]);
 }}());
+RokGallery.Slideshow.prototype.options.onSetup = function(){
+    var current = this.captions[this.current];
+    if (current) current.setStyles({display: 'block', 'opacity': 1, 'visibility': 'visible'});
+};

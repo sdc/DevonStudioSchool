@@ -35,7 +35,7 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 <head>
 	<?php 
 		$gantry->displayHead();
-		$gantry->addStyles(array('template.css','joomla.css'));
+		$gantry->addStyles(array('template.css','joomla.css','sdc.css'));
 		
 		if ($gantry->browser->platform != 'iphone')
 			$gantry->addInlineScript('window.addEvent("domready", function(){ new SmoothScroll(); });');
