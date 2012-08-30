@@ -10,6 +10,13 @@ html body div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-navig
   background-color: transparent;
 }
 
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-body-surround div.rt-container div#rt-utility div#rt-utility2 div.rt-grid-3 div.rt-block {
+  margin: 0;
+}
+
 html body #rt-copyright #developed-by {
   float: right;
 }
+
+
+
