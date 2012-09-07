@@ -1,3 +1,12 @@
+#rt-logo span#logo-color {
+  background-color: transparent;
+}
+
+body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 div#rt-navigation div.rt-container div.rt-grid-3 div.plain div.rt-block {
+  Margin: 0px;
+}
+
+
 html body.bgstyle-wavy-lines-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-navigation div.rt-container {
   /* height: 100px;*/
 }
