@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   $Id: slider.php 2468 2012-08-17 06:16:57Z btowles $
+ * @version   $Id: slider.php 3758 2012-09-18 20:03:41Z btowles $
  * @author    RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -26,7 +26,8 @@ class GantryFormFieldSlider extends GantryFormField
 		$output = '';
 
 
-		$this->template = end(explode('/', $gantry->templatePath));
+		$exploded_path = explode('/', $gantry->templatePath);
+		$this->template = end($exploded_path);
 
 		$class        = $this->element['class'] ? $this->element['class'] : '';
 		$name         = $this->element['name'] ? $this->element['name'] : '';

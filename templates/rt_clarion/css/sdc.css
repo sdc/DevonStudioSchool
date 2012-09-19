@@ -9,6 +9,10 @@
   background-color: transparent;
 }
 
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-showcase div.rt-container div.rt-grid-12 div.nomarginall div.rt-block div.module-surround div.module-content div#rg-138.rokgallery-wrapper div.rg-ss-container div.rg-ss-slice-container {
+  height: 295px!important;
+}
+
 body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 div#rt-navigation div.rt-container div.rt-grid-3 div.plain div.rt-block {
   Margin: 0px;
 }

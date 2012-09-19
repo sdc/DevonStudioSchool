@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="plugin" group="system" method="upgrade">
+    <name>Installer</name>
+	<author>RocketTheme, LLC</author>
+	<creationDate>September 17, 2012</creationDate>
+	<copyright>(C) 2005 - 2012 RocketTheme, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<version>2.0.4</version>
+    <description>RokPad for Joomla! v2.0.4</description>
+    <scriptfile>install.script.php</scriptfile>
+    <files>
+        <filename plugin="installer">installer.php</filename>
+    </files>
+    <cogs>
+        <cog type="plugin" client="site" ordering="1" access="1" enabled="true" protected="false">
+            plg_editors_rokpad-zip
+            <name>RokPad Plugin</name>
+            <description>RokPad Editor Plugin for Joomla!</description>
+        </cog>
+    </cogs>
+</extension>

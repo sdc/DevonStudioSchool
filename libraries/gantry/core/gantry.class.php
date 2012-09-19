@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   $Id: gantry.class.php 3369 2012-09-06 22:03:33Z btowles $
+ * @version   $Id: gantry.class.php 3759 2012-09-18 20:09:38Z btowles $
  * @author    RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -367,7 +367,7 @@ class Gantry
 		// Set the main class vars to match the call
 		JHTML::_('behavior.mootools');
 		$doc               = JFactory::getDocument();
-		$doc->setMetaData('templateframework','Gantry Framework for Joomla!');
+		//$doc->setMetaData('templateframework','Gantry Framework for Joomla!');
 		$this->document    =& $doc;
 		$this->language    = $doc->language;
 		$this->session     = JFactory::getSession();

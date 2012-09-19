@@ -1,6 +1,6 @@
 <?php
 /**
- * @version   $Id: gantryjson.class.php 2445 2012-08-16 22:58:31Z btowles $
+ * @version   $Id: gantryjson.class.php 3757 2012-09-18 20:01:40Z btowles $
  * @author    RocketTheme http://www.rockettheme.com
  * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
  * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
@@ -252,7 +252,7 @@ class GantryJSON
 	}
 
 	// private methods, uncommented, sorry
-	function _getStaticReplacement()
+	protected static function _getStaticReplacement()
 	{
 		static $replacement = array('find' => array(), 'replace' => array());
 
