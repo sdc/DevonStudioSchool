@@ -5,6 +5,12 @@
 .right: {
   float: right;
 }
+
+#rt-top2 { 
+  background: url("../images/overlays/top-overlay.png") repeat scroll 0 0 #f6f6f6;
+  height: 90px;
+}
+
 #rt-logo span#logo-color {
   background-color: transparent;
 }
@@ -48,5 +54,5 @@ html body #rt-copyright #developed-by {
   float: right;
 }
 
-
+/* -------------------- News and Events --------------------*/
 
