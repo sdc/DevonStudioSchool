@@ -118,6 +118,27 @@ html body #rt-copyright #developed-by {
   float: right;
 }
 
+/* Pages */
+
+/* Home */
+.aidanews2_art {
+  margin-bottom: 10px;
+}
+
+.aidanews2 .even {
+  background-color: #f6f6f6!important;
+}
+
+.aidanews2 img {
+  max-width: 102px;
+  margin-bottom: 3px;
+}
+
+.aidanews2_botR {
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
 /* -------------------- News and Events --------------------*/
 
 body.news h1.title {
