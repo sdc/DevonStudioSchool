@@ -27,6 +27,11 @@ body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 d
   Margin: 0px;
 }
 
+/*-------------------- Container -------------------- */
+#rt-container-bg {
+  background-color: #fff;
+}
+
 /* -------------------- Navigation -------------------- */
 
 #rt-navigation .rt-container {
@@ -91,6 +96,7 @@ ul.floatright li {
   background-image: none;
   border-radius: 5px;
   color: #222;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 #rt-showcase .rg-ss-controls .next, #rt-showcase .rg-ss-controls .prev {
