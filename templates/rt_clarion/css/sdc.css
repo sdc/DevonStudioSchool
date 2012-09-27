@@ -144,3 +144,30 @@ html body #rt-copyright #developed-by {
 body.news h1.title {
   margin: 0 0 5px;
 }
+
+/*-------------------- Register interest form --------------------*/
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-body-surround div.rt-container div#rt-mainbottom div#rt-mainbottom2 div.rt-grid-12 div.rt-block div.module-surround div.module-content div.bfClearfix div {
+}
+
+.interest_form { 
+  margin: 0 20px;
+}
+
+.bfNoSection h3 {
+  margin: 0 0 5px;
+}
+
+#student_details, #parent_gardian_details, #left_contact_you, #right_contact_you {
+  float: left;
+  width: 430px;
+}
+
+textarea#ff_elem125.ff_elem { /* other info textarea */
+  width: 460px;
+  height: 130px;
+}
+
+button#bfSubmitButton.bfSubmitButton {
+  float: left;
+  clear: both;
+}
