@@ -1,10 +1,10 @@
 default_run_options[:pty] = true
 
 if ENV['environment'] == "production"
-  set :application, ""
-  role :app, ""
-  role :web, ""
-  role :db,  "", :primary => true
+  set :application, "devonstudioschool"
+  role :app, "172.20.1.30"
+  role :web, "172.20.1.30"
+  role :db,  "172.20.1.30", :primary => true
 else
   set :application, "devonstudioschool.co.uk"
   role :app, "172.20.1.12"
