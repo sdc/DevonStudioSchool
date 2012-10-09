@@ -5,3 +5,4 @@ configuration.php
 cache/*
 .htaccess
 administrator/logs/*
+media/rokgallery/*
