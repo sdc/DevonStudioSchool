@@ -29,7 +29,7 @@ end
 after "deploy:create_symlink" do
   run "cp #{shared_path}/configuration.php #{current_path}/"
   run "cp #{shared_path}/.htaccess #{current_path}/"
-  ["images","attachments"].each do |d|
+  ["images", "media/rokgallery"].each do |d|
     run "rm -rvf #{current_path}/#{d}"
     run "ln -s #{shared_path}/#{d} #{current_path}/#{d}"
   end
