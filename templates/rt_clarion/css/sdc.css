@@ -99,6 +99,14 @@ ul.floatright li {
   background-color: rgba(255, 255, 255, 0.6);
 }
 
+#rt-showcase span.rg-ss-caption p a, #rt-showcase span.rg-ss-caption p a:visited {
+  color: #c98a21;
+}
+
+#rt-showcase span.rg-ss-caption p a:hover {
+  color: #fff;
+}
+
 #rt-showcase .rg-ss-controls .next, #rt-showcase .rg-ss-controls .prev {
   background-image: none;
 }
