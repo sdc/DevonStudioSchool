@@ -85,18 +85,25 @@ ul.floatright li {
 }
 
 /* -------------------- Showcase -------------------- */
+#rt-showcase .rg-ss-info {
+  background-color: rgba(24, 121, 164, 0.6);
+  border-radius: 5px;
+}
 
 #rt-showcase .rg-ss-title {
   font-size: 240%;
-  color: #15778b;
+  color: #fff;
   text-shadow: 1px 1px #23567f;
 }
 
 #rt-showcase span.rg-ss-caption {
   background-image: none;
-  border-radius: 5px;
+
   color: #222;
-  background-color: rgba(255, 255, 255, 0.6);
+}
+
+body .rg-ss-caption {
+  background-color: none;
 }
 
 #rt-showcase span.rg-ss-caption p a, #rt-showcase span.rg-ss-caption p a:visited {
