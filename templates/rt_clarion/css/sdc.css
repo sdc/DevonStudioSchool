@@ -156,22 +156,22 @@ html body #rt-copyright #developed-by {
 /* -------------------- News and Events --------------------*/
 
 /* --- Front page news --- */
-.devon-studio-school-home .aidanews2 img {
+.feb12-home.aidanews2 img {
   border: none;
   padding: 0;
   margin: 5px;
   max-width: 102px;
 }
 
-.devon-studio-school-home .aidanews2_art {
+.feb12-home .aidanews2_art {
   margin-bottom: 10px;
 }
 
-.devon-studio-school-home .aidanews2 .even {
+.feb12-home .aidanews2 .even {
   background-color: #f6f6f6!important;
 }
 
-.devon-studio-school-home .aidanews2_botR {
+.feb12-home .aidanews2_botR {
   margin-bottom: 10px;
   margin-right: 5px;
 }
@@ -180,11 +180,11 @@ body.news h1.title {
   margin: 0 0 5px;
 }
 
-.devon-studio-school-home .aidanews2_topL {
+.feb12-home .aidanews2_topL {
   width: 75%;
 }
 
-.devon-studio-school-home .aidanews2_topR {
+.feb12-home .aidanews2_topR {
   width: 25%;
 }
 
