@@ -1,3 +1,11 @@
+
+/*-------------------- Global typographey overides -------------------- */
+a:hover {
+  color: #6e6e6e;
+}
+
+/*-------------------- Global standard classes -------------------- */
+
 .left {
   float: left;
 }
@@ -5,6 +13,8 @@
 .right: {
   float: right;
 }
+
+/*-------------------- Global style overides -------------------- */
 
 #rt-top2 { 
   background: url("../images/overlays/top-overlay.png") repeat scroll 0 0 #f6f6f6;
@@ -88,17 +98,17 @@ ul.floatright li {
 #rt-showcase .rg-ss-info {
   text-shadow: none;
   width: auto;
-  max-width: 40%;
+  max-width: 42%;
 }
 
 #rt-showcase .rg-ss-title {
   font-size: 150%;
   color: #fff;
   text-shadow: 1px 1px #23567f;
-  background-color: rgba(30, 144, 186, 0.5);
+  background-color: rgba(30, 144, 186, 0.7);
   border-radius: 10px 10px 0 0;
   margin-bottom: 0;
-  padding: 8px 8px 0 8px;
+  padding: 5px 8px 0 8px;
 }
 
 #rt-showcase span.rg-ss-caption {
@@ -141,28 +151,45 @@ html body #rt-copyright #developed-by {
 /* Pages */
 
 /* Home */
-.aidanews2_art {
+
+
+/* -------------------- News and Events --------------------*/
+
+/* --- Front page news --- */
+.devon-studio-school-home .aidanews2 img {
+  border: none;
+  padding: 0;
+  margin: 5px;
+  max-width: 102px;
+}
+
+.devon-studio-school-home .aidanews2_art {
   margin-bottom: 10px;
 }
 
-.aidanews2 .even {
+.devon-studio-school-home .aidanews2 .even {
   background-color: #f6f6f6!important;
 }
 
-.aidanews2 img {
-  max-width: 102px;
-  margin-bottom: 3px;
-}
-
-.aidanews2_botR {
+.devon-studio-school-home .aidanews2_botR {
   margin-bottom: 10px;
   margin-right: 5px;
 }
 
-/* -------------------- News and Events --------------------*/
-
 body.news h1.title {
   margin: 0 0 5px;
+}
+
+.devon-studio-school-home .aidanews2_topL {
+  width: 75%;
+}
+
+.devon-studio-school-home .aidanews2_topR {
+  width: 25%;
+}
+
+.rt-blog.news .rt-article {
+  border-bottom: 1px solid #c8c8c8;
 }
 
 /*-------------------- Register interest form --------------------*/
