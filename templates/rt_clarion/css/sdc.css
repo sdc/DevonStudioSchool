@@ -87,6 +87,8 @@ ul.floatright li {
 /* -------------------- Showcase -------------------- */
 #rt-showcase .rg-ss-info {
   text-shadow: none;
+  width: auto;
+  max-width: 40%;
 }
 
 #rt-showcase .rg-ss-title {
@@ -96,7 +98,7 @@ ul.floatright li {
   background-color: rgba(30, 144, 186, 0.5);
   border-radius: 10px 10px 0 0;
   margin-bottom: 0;
-  padding: 8px 0 8px 8px;
+  padding: 8px 8px 0 8px;
 }
 
 #rt-showcase span.rg-ss-caption {
