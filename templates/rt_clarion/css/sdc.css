@@ -4,6 +4,15 @@ a:hover {
   color: #6e6e6e;
 }
 
+h2 {
+  font-size: 1.4em;
+  color: #535353;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
 /*-------------------- Global standard classes -------------------- */
 
 .left {
