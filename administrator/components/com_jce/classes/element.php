@@ -100,13 +100,22 @@ class WFElement extends JObject
 		$output = '<label id="' . $control_name . $name . '-lbl" for="' . $control_name . $name . '"';
 		if ($description)
 		{
-			$output .= ' class="hasTip" title="' . JText::_($label) . '::' . JText::_($description) . '">';
+                    $label          = WFText::_($label);
+                    $description    = WFText::_($description);
+                    
+                    if (strpos($description, '::') === false) {
+                        $title = $label . '::' . $description;
+                    } else {
+                        $title = $description;
+                    }
+                    
+                    $output .= ' class="hasTip" title="' . $title . '">';
 		}
 		else
 		{
 			$output .= '>';
 		}
-		$output .= JText::_($label) . '</label>';
+		$output .= $label . '</label>';
 
 		return $output;
 	}
