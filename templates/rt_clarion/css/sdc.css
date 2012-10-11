@@ -197,7 +197,7 @@ body.news h1.title {
   width: 25%;
 }
 
-.rt-blog.news .rt-article {
+.news .rt-blog.news .items-row {
   border-bottom: 1px solid #c8c8c8;
 }
 
