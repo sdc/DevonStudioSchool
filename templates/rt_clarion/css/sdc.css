@@ -68,6 +68,10 @@ body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 d
     margin: 25px 0 0;
 }
 
+#rt-container-bg #rt-container-bg2 #rt-navigation ul.social-icons {
+  margin: 10px 0 0 0;
+}
+
 /* #rt-navigation, #rt-navigation .rt-container, .rt-fusionmenu, .rt-menubar, ul.menutop,*/ .rt-fusionmenu .nopill .rt-menubar ul.menutop li a {
    height: 40px;
    line-height: 40px;
@@ -104,6 +108,22 @@ ul.floatright li {
 }
 
 /* -------------------- Showcase -------------------- */
+
+
+/*--- Nivo ---*/
+body.feb12-home #rt-showcase div.rt-container div.rt-grid-12 {
+  margin: 0;
+  width:960px;
+}
+
+body.feb12-home #rt-showcase div.rt-container div.rt-grid-12 div.front_slider div.rt-block {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 #rt-showcase .rg-ss-info {
   text-shadow: none;
   width: auto;
