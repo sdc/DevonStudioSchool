@@ -50,16 +50,7 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 		}
 		
 	?>
-  <style type="text/css">
-    #ui-datepicker-div {
-      background:#fff;
-      border:1px solid #000;
-      padding:4px;
-    }
-    .ui-datepicker-next{
-      float:right;
-    }
-  </style>
+
 </head>
 	<body <?php echo $gantry->displayBodyTag(); ?>>
 		<?php /** Begin Drawer **/ if ($gantry->countModules('drawer')) : ?>
@@ -200,9 +191,6 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 		<?php /** Begin Analytics **/ if ($gantry->countModules('analytics')) : ?>
 		<?php echo $gantry->displayModules('analytics','basic','basic'); ?>
 		<?php /** End Analytics **/ endif; ?>
-    <script type="text/javascript">
-      $('#ff_elem11').datepicker();
-    </script>
 	</body>
 </html>
 <?php
