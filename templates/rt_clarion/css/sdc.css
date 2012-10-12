@@ -222,7 +222,7 @@ html body #rt-copyright #developed-by {
 /* -------------------- News and Events --------------------*/
 
 /* --- Front page news --- */
-.feb12-home.aidanews2 img {
+.feb12-home .aidanews2 img {
   border: none;
   padding: 0;
   margin: 5px;
