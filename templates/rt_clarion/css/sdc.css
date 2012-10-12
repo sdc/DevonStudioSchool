@@ -69,7 +69,8 @@ body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 d
 }
 
 #rt-container-bg #rt-container-bg2 #rt-navigation ul.social-icons {
-  margin: 10px 0 0 0;
+  margin: 10px 0;
+  height: 49px;
 }
 
 /* #rt-navigation, #rt-navigation .rt-container, .rt-fusionmenu, .rt-menubar, ul.menutop,*/ .rt-fusionmenu .nopill .rt-menubar ul.menutop li a {
@@ -121,7 +122,11 @@ body.feb12-home #rt-showcase div.rt-container div.rt-grid-12 div.front_slider di
   padding: 0;
 }
 
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-showcase div.rt-container div.rt-grid-12 div.front_slider div.rt-block div.module-surround div.module-content div.joomla_pns div.slider-wrapper div#slider154.nivoSlider div.nivo-caption p p a {
+  
+}
 
+/*-- end nivo --*/
 
 
 #rt-showcase .rg-ss-info {
