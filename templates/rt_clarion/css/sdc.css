@@ -63,7 +63,7 @@ body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 d
 
 #rt-navigation .custom h1, #rt-navigation .custom h2 {
     color: #1E90BA;
-    font-size: 2.3em;
+    font-size: 2em;
     font-weight: normal;
     margin: 25px 0 0;
 }
@@ -106,6 +106,10 @@ body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 d
 
 ul.floatright li {
   float: left;
+}
+
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-navigation div.rt-container div.rt-grid-9 div.nav-menu div.rt-block div.module-surround div.module-content div.rt-fusionmenu div.nopill div.rt-menubar ul.menutop {
+  height:46px;
 }
 
 /* -------------------- Showcase -------------------- */
@@ -167,6 +171,8 @@ body .rg-ss-caption {
   background-image: none;
 }
 
+/*-------- Countdowntimer --------*/
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-feature div.rt-container div.rt-grid-3 div.rt-block div.module-surround div.module-content div.cdub_main div.cdub_color h2.cdub_color
 
 html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-body-surround div.rt-container div#rt-utility div#rt-utility2 div.rt-grid-3 div.rt-block {
   margin: 0;
