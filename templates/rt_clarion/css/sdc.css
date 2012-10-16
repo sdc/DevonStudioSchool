@@ -174,8 +174,12 @@ body .rg-ss-caption {
 /*-------- Countdowntimer --------*/
 
 body.feb12-home #rt-feature .countdown {
-    background-image: url("../../../images/frontpage/countdown.jpg");
-    height: 122px;
+  background-image: url("../../../images/frontpage/countdown_opening.jpg");
+  background-repeat: no-repeat;
+  height: 122px;
+  margin: 0 auto;
+  text-align: center;
+  width: 122px;
 }
 
 body.feb12-home #rt-feature .countdown .rt-block {
