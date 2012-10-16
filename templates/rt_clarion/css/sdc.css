@@ -182,6 +182,10 @@ body.feb12-home #rt-feature .countdown .rt-block {
   padding: 0;
 }
 
+.countdown span.cdub_font2 {
+  display: none;
+}
+
 .countdown .cdub_color {
   padding: 5px;
 }
@@ -191,11 +195,11 @@ body.feb12-home #rt-feature .countdown .rt-block {
 }
 
 .countdown h2.cdub_color {
-  margin: 3px 0 10px;
+  margin: 3px 0 14px;
 }
 
 .countdown span.cdub_font {
-  font-size: 1.4em;
+  font-size: 1.8em;
 }
 
 html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-transition div#rt-main-container div#rt-body-surround div.rt-container div#rt-utility div#rt-utility2 div.rt-grid-3 div.rt-block {
