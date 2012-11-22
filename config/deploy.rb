@@ -12,7 +12,8 @@ else
 end
 
 set :repository,  "git@github.com:briancrocker81/DevonStudioSchool.git"
-set :branch,      "dev"
+set :repository,  "git@github.com:sdc/DevonStudioSchool.git"
+set :branch,      "master"
 set :deploy_to, "/srv/#{application}"
 set :scm, :git
 
