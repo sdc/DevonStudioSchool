@@ -41,6 +41,8 @@ if ($this->params->get('highContrast')) {
 		<jdoc:include type="head" />
 	</head>
 	<body class="contentpane">
+    <h1><a href="../administrator">Return to menu</a></h1>
+    <p>If you feel this is incorrect please contact the <a href="mailto:helpdesk@southdevon.ac.uk">helpdesk</a></p>    
 		<jdoc:include type="message" />
 		<jdoc:include type="component" />
 	</body>
