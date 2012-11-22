@@ -42,12 +42,15 @@ $gpreset = str_replace(' ','',strtolower($gantry->get('name')));
 			
 		if ($gantry->get('loadtransition') && isBrowserCapable()){
 			$gantry->addScript('load-transition.js');
+			$gantry->addScript('jquery-1.8.2.min.js');
+			$gantry->addScript('jquery-ui.js');
 			$hidden = ' class="rt-hidden"';
 		} else {
 			$hidden = '';
 		}
 		
 	?>
+
 </head>
 	<body <?php echo $gantry->displayBodyTag(); ?>>
 		<?php /** Begin Drawer **/ if ($gantry->countModules('drawer')) : ?>

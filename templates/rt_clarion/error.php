@@ -36,6 +36,7 @@ $gantry->init();
 	<link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/splitmenu.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/template.css" type="text/css" />
 	<link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/error.css" type="text/css" />
+	<link rel="stylesheet" href="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/css/sdc.css" type="text/css" />
 	<style type="text/css">
 		<?php 
 			$css = '.readon, #rt-main-container .module-content ul.menu > li:hover > a, #rt-main-container .module-content ul.menu > li:hover > .separator, #rt-main-container .module-content ul.menu > li.active > a, .logo-block #logo-color, #rt-accessibility #rt-buttons a, .rt-article-icons ul li a, .title1 .arrow-box, .box3 .rt-block, body .rg-ss-controls .next:hover, body .rg-ss-controls .prev:hover, .roknewspager-li.active h3, .featuretable .featuretable-col.highlight, .featuretable .featuretable-col.highlight .featuretable-head, .featuretable-col.highlight .featuretable-cell.bg, .roktabs-wrapper .arrow-next, .roktabs-wrapper .arrow-prev,.rokminievents-wrapper .timeline .progress .knob, #gantry-totop:hover, .rokgallery-wrapper .rg-gm-slice:before, body .rg-ss-progress {background-color:'.$gantry->get('main-accent').';}'."\n";

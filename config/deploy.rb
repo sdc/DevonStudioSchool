@@ -12,7 +12,7 @@ else
 end
 
 set :repository,  "git@github.com:briancrocker81/DevonStudioSchool.git"
-set :branch,      "master"
+set :branch,      "dev"
 set :deploy_to, "/srv/#{application}"
 set :scm, :git
 
@@ -27,7 +27,7 @@ end
 after "deploy:create_symlink" do
   run "cp #{shared_path}/configuration.php #{current_path}/"
   run "cp #{shared_path}/.htaccess #{current_path}/"
-  ["images","attachments"].each do |d|
+  ["images", "media/rokgallery"].each do |d|
     run "rm -rvf #{current_path}/#{d}"
     run "ln -s #{shared_path}/#{d} #{current_path}/#{d}"
   end
