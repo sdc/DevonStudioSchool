@@ -68,9 +68,27 @@ body.bgstyle-textile-light .rt-container #rt-container-bg div#rt-container-bg2 d
     margin: 25px 0 0;
 }
 
-#rt-container-bg #rt-container-bg2 #rt-navigation ul.social-icons {
+#rt-container-bg #rt-container-bg2 #rt-navigation .social-icons {
   margin: 10px 0;
   height: 49px;
+}
+
+#rt-container-bg #rt-container-bg2 #rt-navigation .social-icons ul {
+  float: left;
+  list-style-type: none;
+}
+
+#rt-container-bg #rt-container-bg2 #rt-navigation .social-icons ul li {
+  float: left;
+}
+
+.rt-container #rt-container-bg #rt-container-bg2 #rt-navigation .rt-container .rt-grid-9 .social-icons .rt-block .module-surround .module-content .social-icons h2 {
+  margin-top: 15px;
+}
+
+html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-container-bg2 div#rt-navigation div.rt-container div.rt-grid-9 div.social-icons div.rt-block {
+  margin: 0px;
+  padding: 0px
 }
 
 .rt-fusionmenu .nopill .rt-menubar ul.menutop li a {
