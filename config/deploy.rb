@@ -11,7 +11,6 @@ else
   role :db,   "webdev.southdevon.ac.uk", :primary => true
 end
 
-set :repository,  "git@github.com:briancrocker81/DevonStudioSchool.git"
 set :repository,  "git@github.com:sdc/DevonStudioSchool.git"
 set :branch,      "master"
 set :deploy_to, "/srv/#{application}"

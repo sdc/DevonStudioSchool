@@ -12,7 +12,7 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 <?php 
   $db = JFactory::getDBO();
 
-  $query = "SELECT introtext FROM dss_content WHERE alias = 'email-response'";  
+  $query = "SELECT introtext FROM dss_content WHERE alias = 'application-response'";  
   $db->setQuery($query);
   $column= $db->loadResultArray();
   echo  strip_tags($column[0]);
