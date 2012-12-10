@@ -6,8 +6,9 @@
  * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
 */
 
-.rt-menubar, .logo-block {float: left;}
-#rt-navigation .rt-fusionmenu, #rt-navigation .rt-splitmenu {margin: 0 -2px 0;}
+.rt-menubar, .logo-block {float: left; height: 100px; width 160px;}
+#logo-inner {width: 159px;}
+#rt-navigation .rt-fusionmenu, #rt-navigation .rt-splitmenu {margin: 0 -2px 0;display:none;}
 #rt-main-container {padding: 15px 200px;}
 #rt-body-surround {padding: 15px;}
 .component-content .title span {font-size: 6em;}
