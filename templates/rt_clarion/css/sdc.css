@@ -292,6 +292,10 @@ html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-cont
   margin: 0 20px;
 }
 
+.bfNoSection {
+  float: left;  
+}
+
 .bfNoSection h3 {
   margin: 0 0 5px;
 }
