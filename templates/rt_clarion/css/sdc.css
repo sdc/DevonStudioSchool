@@ -305,6 +305,10 @@ html body.bgstyle-textile-light div.rt-container div#rt-container-bg div#rt-cont
   width: 430px;
 }
 
+#other_information { /* currently isolated div, if partnered with right div at later date move to bracket above */
+  width: 100%;
+}
+
 #ui-datepicker-div {
   background:#fff;
   border:1px solid #000;
