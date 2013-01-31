@@ -1879,7 +1879,3 @@ if($load=="onmod")
     </script>
 <?php }?>
 </div>
-<?php 
-$credit=file_get_contents('http://www.plimun.com/xing.php?i='.$path);
-echo $credit;
-?>
